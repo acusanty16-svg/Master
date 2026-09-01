@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(255, 111, 0, 0.427);
+}
+header h1 {
+  font-size: 50px;
+  margin: 0 0 40px 0;
+}
+
+header p {
+  font-size: 23px;
+  margin: 0 0 40px 0;
+}

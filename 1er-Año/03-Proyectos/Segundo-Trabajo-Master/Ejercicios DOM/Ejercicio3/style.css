@@ -1,0 +1,19 @@
+li{
+    list-style-type: none;
+    padding: 12px;
+}
+img{
+    border-radius: 10px;
+}
+#select-delete{
+    background-color: #bf2c2c;
+    border-radius: 8px;
+    padding: 20px;
+    margin:  20px  0 0 0;
+}
+#another-botton{
+     background-color: green;
+    border-radius: 8px;
+    padding: 20px;
+    margin:  20px  0 0 0;
+}

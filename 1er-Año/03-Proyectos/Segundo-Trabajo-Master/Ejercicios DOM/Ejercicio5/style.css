@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    margin: 20px;
+    border: black 1px solid;
+    border-radius: 12px;
+    display: grid;
+    gap: 20px;
+    grid-template-rows: auto auto auto;
+    grid-template-areas: 
+    "h1"
+    "p"
+    "myBtn"
+    ;
+    transition: background-color 0.4s ease, color 1s ease;
+    box-shadow: 0 4px 8px rgba(227, 10, 10, 0.3);
+
+
+}
+button{
+    border-radius: 8px;
+    border: 0;
+        box-shadow: 0 4px 8px rgba(227, 10, 10, 0.3);
+    transition: background-color 0.4s ease, color 1s ease;
+}
+header h1{
+    padding: 20px;
+    margin: 0 0 20px 0;
+    text-align: center;
+    grid-area: h1;
+    font-family: 'Arial Black', sans-serif;
+}
+header p{
+    padding: 20px;
+    text-align: center;
+    grid-area: p;
+}
+.myBtn{
+    padding: 10px 20px;
+    justify-self: center;
+    grid-area: myBtn;
+    margin: 0 0 20px 0;
+}
+
+
+body h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main h2, h3, p{
+    margin: 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main img{
+    width: 100%;
+    height: 400px;
+    padding: 20px;
+    object-fit: cover;
+    border-radius: 50px;
+}
+main ul{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+main li{
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(227, 10, 10, 0.3);
+
+}
+.dark{
+    margin: 0;
+    padding: 0;
+    background-color: #202427;
+    border-radius: 0;
+}
+
+header.dark{
+    border: 0px solid;
+    color: #ff5769;
+    transition: background-color 0.4s ease, color 1s ease;
+
+}
+.dark h1, .dark p, .dark h2, .dark h3{
+    font-family: monospace;
+}
+header.dark  p{
+    border: #ff5769 solid 1px;
+    box-shadow: 0 4px 8px #ff5769;
+
+}
+.dark .myBtn{
+    background-color: #ff5769;
+    box-shadow: 0 10px 20px rgba(207, 160, 160, 0.3);
+    font-family: monospace;
+    transition: background-color 0.4s ease, color 1s ease;
+    border-radius: 0px;
+
+}
+
+.dark li{
+    background-color: #ffaf0f;
+    color: #ff5769;
+    border-radius: 0px;
+    box-shadow: 0 0px 0px rgba(227, 10, 10, 0.3);
+
+}
+
+.dark img{
+    border-radius: 0px;
+}

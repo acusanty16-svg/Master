@@ -1,0 +1,345 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+    --base-color: #2f314d;
+    --background-color: #fffeff;
+    --accent-color1: #b93734;
+    --accent-color2: #2b6a62;
+    --spacing: 20px;
+    --border-radius: 35px;
+    --shadow-box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-variation-settings: "wdth" 80;
+    background-color: var(--background-color);
+    color: var(--base-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--base-color);
+}
+
+header p {
+    font-family: "Bebas Neue", sans-serif;
+    color: var(--base-color);
+    font-size: 35px;
+    font-weight: 900;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 80px;
+    font-size: 40px;
+    padding-top: 40px;
+    border-top: var(--accent-color1) solid;
+
+}
+
+h3 {
+    border-top: var(--accent-color1) solid;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: var(--accent-color1);
+}
+
+header {
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+header>nav>ul {
+
+    display: flex;
+    gap: var(--spacing);
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    padding: var(--spacing);
+}
+
+section#introduction ul {
+
+    display: grid;
+    font-size: 60px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: var(--spacing);
+}
+
+section#introduction li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    text-align: justify;
+
+}
+
+section#introduction .portafolio {
+    color: var(--accent-color1);
+}
+
+section#introduction .portafolio:hover {
+    color: var(--base-color);
+    transition: 0.7s;
+}
+
+
+section#introduction p {
+    padding-bottom: 160px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+section#hobbies h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+section#hobbies p {
+
+    width: 100%;
+    height: 120px;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    padding: 50px;
+    margin: 0 0 50px 0;
+
+
+}
+
+section#hobbies>ul>li>figcaption {
+    padding-bottom: 80px;
+}
+
+section#hobbies ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#hobbies li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: var(--spacing);
+}
+
+
+section#hobbies ul>li>img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+section#hobbies h3:hover {
+    color: var(--accent-color1);
+    transition: 0.7s;
+}
+
+section#hobbies ul>li>iframe {
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: var(--spacing);
+    border: none;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-box-shadow);
+}
+
+
+section#religion h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+section#religion h3:hover {
+    color: var(--accent-color1);
+    transition: 0.7s;
+}
+
+section#religion>ul>li>figcaption {
+    padding-bottom: 80px;
+}
+
+section#religion ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#religion li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: var(--spacing);
+
+}
+
+
+section#religion ul>li>img {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+}
+
+section#religion ul>li>iframe {
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-box-shadow);
+
+}
+
+
+
+
+section#lectura h3 {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 40px;
+}
+
+section#lectura h3:hover {
+    color: var(--accent-color1);
+    transition: 0.7s;
+}
+
+section#lectura>ul>li>figcaption {
+    padding-bottom: 80px;
+}
+
+section#lectura ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section#lectura li {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: var(--border-radius);
+    padding: var(--spacing);
+
+}
+
+
+section#lectura ul>li>img {
+
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    border-radius: var(--border-radius);
+
+}
+
+section#lectura ul>li>iframe {
+
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    padding: var(--spacing);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-box-shadow);
+
+}
+
+section#aspiraciones h2 {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+section#aspiraciones ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    text-align: center;
+}
+
+section#aspiraciones img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    padding: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing);
+    justify-content: space-between;
+    border-radius: 35px;
+}
+
+
+section#copyright {
+    padding: var(--spacing);
+    text-align: center;
+}
+
+section#contacto {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+section#contacto h2 {
+    padding-bottom: 20px;
+}

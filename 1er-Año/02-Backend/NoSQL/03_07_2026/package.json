@@ -1,0 +1,13 @@
+{
+  "name": "mi_primer_proyecto",
+  "version": "1.0.0",
+  "description": "Este es mi primer proyecto de scripting",
+  "license": "ISC",
+  "author": "David Santiago Acuna Toro",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  }
+}
