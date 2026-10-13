@@ -1,0 +1,4 @@
+# Volcado de base de datos de gran tamano (aprox. 476 MB).
+# No se versiona porque supera el limite de tamano de archivo de GitHub (100 MB).
+# Debe obtenerse o generarse por separado para poder ejecutar los ejercicios.
+database/*.sql

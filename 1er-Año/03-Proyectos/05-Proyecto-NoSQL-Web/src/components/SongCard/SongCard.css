@@ -1,0 +1,28 @@
+.song-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.song-card .card-subtitle {
+  color: rgb(190, 190, 190);
+  font-size: 0.9rem;
+}
+
+.play-btn {
+  display: inline-block;
+  margin-top: 12px;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: orangered;
+  color: white;
+  font-size: 0.9rem;
+}
+
+.play-btn:hover {
+  background-color: rgb(255, 122, 69);
+  color: white;
+  transform: scale(1.1);
+}

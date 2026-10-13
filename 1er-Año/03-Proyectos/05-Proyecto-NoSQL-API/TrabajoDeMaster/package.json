@@ -1,0 +1,21 @@
+{
+  "name": "trabajodemaster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "seed:genres": "node src/seed.genres.js",
+    "seed:artists": "node src/seed.artists.js",
+    "seed:songs": "node src/seed.songs.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.9.1"
+  }
+}

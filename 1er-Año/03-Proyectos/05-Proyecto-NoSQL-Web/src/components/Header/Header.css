@@ -1,0 +1,28 @@
+.header {
+  padding: 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(60, 60, 60);
+}
+
+.header-title {
+  color: orangered;
+  font-size: 1.6rem;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.header-nav a {
+  font-size: 1.05rem;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.header-nav a:hover {
+  background-color: rgb(45, 45, 45);
+  color: orangered;
+}

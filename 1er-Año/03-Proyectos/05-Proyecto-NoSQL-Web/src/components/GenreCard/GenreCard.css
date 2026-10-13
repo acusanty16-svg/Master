@@ -1,0 +1,17 @@
+.genre-card {
+  cursor: pointer;
+}
+
+.genre-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(255, 69, 0, 0.25);
+}
+
+.genre-card .card-title {
+  color: orangered;
+}
+
+.genre-card .card-description {
+  color: rgb(190, 190, 190);
+  font-size: 0.9rem;
+}
